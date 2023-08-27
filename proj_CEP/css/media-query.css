@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 390px) {
+    div#container-conteudo{
+        width: 300px;
+    }
+    div#title{
+        gap: 0px;
+        padding: 5px;
+    }
+    div#title > span{
+        color: var(--cor04);
+        font-size: 2em;
+    }
+    div#container-conteudo h1{
+        color: var(--cor03);
+        font-size: 1.3em;
+    }
+    form#input{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    input#cityId, select#regionId{
+        width: 145px;
+        margin-bottom: 5px;
+    }
+    div#container-buttons{
+        gap: 50px;
+    }
+    div#mensagem{
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 768px) {
+    div#container-conteudo{
+        width: 370px;
+    }
+    div#title{
+        gap: 0px;
+        padding: 5px;
+    }
+    div#title > span{
+        color: var(--cor04);
+        font-size: 2em;
+    }
+    div#container-conteudo h1{
+        color: var(--cor03);
+        font-size: 1.3em;
+    }
+    form#input{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    input#cityId, select#regionId{
+        width: 177px;
+        margin-bottom: 5px;
+    }
+    div#container-buttons{
+        gap: 70px;
+    }
+    div#mensagem{
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    div#container-conteudo{
+        width: 470px;
+    }
+    div#title{
+        gap: 0px;
+        padding: 5px;
+    }
+    div#title > span{
+        color: var(--cor04);
+        font-size: 2em;
+    }
+    div#container-conteudo h1{
+        color: var(--cor03);
+        font-size: 1.7em;
+    }
+    form#input{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    input#cityId, select#regionId{
+        width: 229px;
+        margin-bottom: 5px;
+    }
+    div#container-buttons{
+        gap: 70px;
+    }
+    div#mensagem{
+        width: 340px;
+    }
+    div#container-buttons > button{
+        width: 130px;
+        padding: 5px;
+        font-size: 1.3em;
+    }
+}

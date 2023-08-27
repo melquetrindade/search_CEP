@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #04044c;
+    --cor02: #494A70;
+    --cor03: #FFF;
+    --cor04: #25CC88;
+    --cor05: #8789AF;
+    --cor06: #20235b;
+}
+
+.hide{
+    display: none !important;
+}
+
+body#corpo{
+    background-color: var(--cor01);
+}
+
+div#container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+div#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+div#mensagem{
+    width: 300px;
+}
+
+div#mensagem p{
+    border-bottom: 1px solid var(--cor05);
+    padding: 5px;
+}
+
+div#container-conteudo{
+    width: 540px;
+}
+
+div#title{
+    display: flex;
+    gap: 10px;
+}
+
+div#title > span{
+    color: var(--cor04);
+    font-size: 2em;
+}
+
+div#container-conteudo h1{
+    color: var(--cor03);
+    font-size: 1.7em;
+}
+
+form#input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: var(--cor04)
+}
+
+input#cepId{
+    background-color: var(--cor01);
+    color: var(--cor05)
+}
+
+div#container-conteudo label{
+    color: var(--cor05);
+}
+
+input#cepId:focus{
+    border: 2px solid var(--cor04);
+    color: var(--cor03);
+}
+
+div#res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input#cityId, select#regionId{
+    width: 265px;
+    background-color: var(--cor02);
+    color: var(--cor05);
+    margin-bottom: 10px;
+}
+
+div#container-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 10px;
+}
+
+div#container-buttons > button{
+    border: none;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button#buscarBtn{
+    background-color: var(--cor04);
+    color: var(--cor03);
+}
+
+button#buscarBtn:hover{
+    background-color: #00fc97;
+}
+
+button#limparBtn:hover{
+    background-color: rgb(208, 208, 208);
+}
